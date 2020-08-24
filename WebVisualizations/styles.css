@@ -1,11 +1,20 @@
 body {
     background: #ededed;
   }
+.centerbox {
+    text-align: left;
+    align:left
+}
 h1 {
     color:#4aaaa5;
-    font-weight:900
+    font-weight:900;
+    padding: 10px
 }
 .main {
     color: #9ca7b2;
-    background-color: #ffffff
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 30px
 }
