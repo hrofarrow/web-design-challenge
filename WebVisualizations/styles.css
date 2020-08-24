@@ -3,7 +3,6 @@ body {
   }
 .centerbox {
     text-align: left;
-    align:left
 }
 h1 {
     color:#4aaaa5;
@@ -14,7 +13,36 @@ h1 {
     color: #9ca7b2;
     background-color: #ffffff;
     margin-top: 50px;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 700px;
+    margin-left: 100px;
     padding: 30px
+}
+p1 {
+    margin-top:20px;
+    color: #778695;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px
+}
+p2 {
+    color: #778695;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px
+}
+
+.sidebar {
+    background-color: #ffffff;
+    /* float: right; */
+    position: relative;
+    display:inline-block;
+    padding: 30px;
+    margin-top:-420px;
+    margin-right: 200px;
+    margin-left:750px
+}
+
+.float-child{
+    width: 25%;
+    float: left;
+    padding: 0px;
+    border: 2px solid red;
 }
