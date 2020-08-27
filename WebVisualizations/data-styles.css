@@ -24,7 +24,6 @@
   color: grey;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 .navbar-nav .dropdown-menu {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: grey;
@@ -34,7 +33,9 @@
 body {
   background: #ededed;
 }
-
+.centerbox {
+  text-align: left;
+}
 h1 {
   color: #4aaaa5;
   font-weight: bold;
@@ -43,11 +44,13 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
 }
-#main {
+.main {
   color: #9ca7b2;
   background-color: #ffffff;
-  margin-top: 30px;
-  padding: 20px;
+  margin-top: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 50px;
 }
 p1 {
   margin-top: 20px;
@@ -56,39 +59,6 @@ p1 {
   font-size: 15px;
   line-height: 25px;
 }
-p2 {
-  color: #778695;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 25px;
-}
-.figure1 {
-  width: 100px;
-  height: 100px;
-  margin-left: 50px;
-}
-.figure2 {
-  width: 100px;
-  height: 100px;
-  margin-left: 50px;
-}
-.figure3 {
-  width: 100px;
-  height: 100px;
-  margin-left: 20px;
-}
-.figure4 {
-  width: 100px;
-  height: 100px;
-  margin-left: 20px;
-}
-#sticky-sidebar {
+.table table-striped {
   background-color: white;
-  padding: 0px;
-  margin-top: 30px;
-  margin-left: 20px;
-}
-.visualtitle {
-  font-size: 20px;
-  padding: 30px;
 }
