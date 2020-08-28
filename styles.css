@@ -92,3 +92,20 @@ p2 {
   font-size: 20px;
   padding: 30px;
 }
+
+.small-screens {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #sticky-sidebar {
+    display: none;
+  }
+  .small-screens {
+    display: block;
+    background-color: white;
+  }
+  .container {
+    background-color: white;
+  }
+}
